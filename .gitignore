@@ -68,3 +68,7 @@ instance/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Ignore all files in the notebooks directory
+data/md-notes/*
+data/vectorstore/*
