@@ -1,0 +1,70 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+.env/
+
+# PyInstaller generated files
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+
+# Logs and databases
+*.log
+
+# Django (if applicable)
+*.pot
+*.pyc
+
+# Flask (if applicable)
+instance/
+.webassets-cache/
+
+# Pytest and Mypy caches
+.pytest_cache/
+.mypy_cache/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
